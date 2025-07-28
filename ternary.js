@@ -45,8 +45,8 @@ else {
 
 console.log (price);
 
-// price = isLeader === true ? price >= 1000 ? price / 2 : 0 : price + 1500;
-// console.log (price);
+price = isLeader === true ? price >= 1000 ? price / 2 : 0 : price + 1500;
+console.log (price);
 
 
 
