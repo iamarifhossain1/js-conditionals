@@ -1,3 +1,10 @@
+/**
+ * Free Drinks
+    - Burger more than 500tk: free Coke
+    - Else Coke: 30tk
+ * 
+ */
+
 const burgerPrice = 500;
 const minimumExpense = 400;
 const cokePrice = 30;
