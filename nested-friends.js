@@ -12,6 +12,29 @@ use nested if-else-if-else
 */
 
 
-const myScore = 80;
-const friendScore = 80;
+let myScore = 90;
+let friendScore = 75;
 
+if (myScore > 80) {
+    console.log ('Now Check My Friends Score');
+
+    if (friendScore > 80) {
+        console.log ('Lets Have Lunch Together :D ');
+    }
+
+    else if (friendScore >= 60) {
+        console.log ('Dont Be Sad Dost....Better Luck Next Time !');
+    }
+
+    else if (friendScore >= 40) {
+        console.log ('Dont Seen Any Message From Him/Her -.- ');
+    }
+
+    else {
+        console.log ('Block Him/Her From Everywhere');
+    }
+}
+
+else {
+    console.log ('Go To Home and Sleep and Act Sad :( ');
+}
